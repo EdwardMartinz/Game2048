@@ -12,4 +12,13 @@ This project was developed in Eclipse, import the SRC in your Eclipse Project
 
 ## How to play
 ### Commands
-![commands](https://user-images.githubusercontent.com/36489953/36333406-02a63bac-1377-11e8-8c70-62e8b828e509.PNG)
+```
+ move <direction>: execute a move in one of the directions: up, down, left, right
+ undo: undo the last command
+ redo: redo the last undone command
+ reset: start a new game
+ play <game>: start a new game of one of the game types: original, fib, inverse
+ help: print this help message
+ exit: terminate the program
+ 
+```
