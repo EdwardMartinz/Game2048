@@ -15,7 +15,7 @@ public class Game2048 {
 			// Seed for the random behavior
 			long seed = new Random().nextInt(1000);
 			
-			// Creates game
+			// Creates a game
 			Game game = new Game(GameType.ORIG, 4, 2, seed);
 			
 			// Creates a Controller
