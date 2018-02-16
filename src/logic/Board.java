@@ -15,6 +15,7 @@ public class Board {
 		
 	}
 	
+	// Size
 	public int getBoardSize() {
 		return boardSize;
 	}
