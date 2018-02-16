@@ -9,3 +9,7 @@
 
 ## How to install
 This project was developed in Eclipse, import the SRC in your Eclipse Project
+
+## How to play
+### Commands
+![commands](https://user-images.githubusercontent.com/36489953/36333406-02a63bac-1377-11e8-8c70-62e8b828e509.PNG)
