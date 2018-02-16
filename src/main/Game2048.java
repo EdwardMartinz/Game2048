@@ -12,21 +12,11 @@ public class Game2048 {
 
 	public static void main(String[] args) {
 	
-		if(args.length == 2 || args.length == 3) {
-			
-			// 2 first parameters
-			int dimension = Integer.parseInt(args[0]);
-			int initCells = Integer.parseInt(args[1]);
-			
-			// Seed
-			long seed ;
-			if(args.length == 2)
-				seed = new Random().nextInt(1000);
-			else
-				seed = Long.parseLong(args[2]); 
+			// Seed for the random behavior
+			long seed = new Random().nextInt(1000);
 			
 			// Creates game
-			Game game = new Game(GameType.ORIG, dimension, initCells, seed);
+			Game game = new Game(GameType.ORIG, 4, 2, seed);
 			
 			// Creates a Controller
 			Scanner in = new Scanner(System.in);
@@ -35,8 +25,5 @@ public class Game2048 {
 			// Runs the game
 			controlador.run();
 			
-		}else
-			System.out.println("Usage: Game 2048 <size> <initCells> [<seed>]");
 	}
-	
 }
