@@ -5,9 +5,7 @@ import java.util.Random;
 
 public interface GameRules {
 	
-	
 	 // Undefined methods
-	
 	void addNewCellAt(Board board, Position pos, Random rand);
 	
 	int merge(Cell self, Cell other);
@@ -17,7 +15,6 @@ public interface GameRules {
 	boolean win(Board board);
 	
 	// Default Methods
-	
 	default boolean lose(Board board) {
 		return (!board.canMerge(this) 
 				&& board.currentEmptyCells().numOfEmptyCells() == 0);
