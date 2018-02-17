@@ -12,7 +12,7 @@ public class PlayCommand extends Command {
 	// Play parse Exceptions
 	public static final String INVALID_GAME = "Invalid game type for play command\n";
 	public static final String PLAY_NO_PARAM = "Play must be followed by a game type: " 
-												+ GameType.externaliseAll() + "\n";
+						   + GameType.externaliseAll() + "\n";
 
 	// Atributes
 	private GameType gameType;
@@ -22,7 +22,7 @@ public class PlayCommand extends Command {
 
 	private final static String COMMAND_INFO = "play <game>";
 	private final static String HELP_INFO = "start a new game of one of the game types: "
-											 + GameType.externaliseAll() + "\n";
+						+ GameType.externaliseAll() + "\n";
 
 	// Constructors
 	public PlayCommand() {
@@ -57,7 +57,7 @@ public class PlayCommand extends Command {
 
 			if (newGameType != null) {
 				System.out.println("*** You have chosen to play the game: " 
-									+ newGameType.getDescription() + " ***");
+							+ newGameType.getDescription() + " ***");
 
 				// Asks for the size of the board
 				
@@ -72,7 +72,7 @@ public class PlayCommand extends Command {
 						if (sizeS.isEmpty()) {
 							pSize = Game.SIZE;
 							System.out.println("--> Using the default size of the board: " 
-													+ Game.SIZE + "\n");
+										+ Game.SIZE + "\n");
 
 						} else {
 							pSize = Integer.parseInt(sizeS);
@@ -99,7 +99,7 @@ public class PlayCommand extends Command {
 						if (initS.isEmpty()) {
 							pInitCells = Game.INIT_CELLS;
 							System.out.println("--> Using the default number of initial cells: "
-													+ Game.INIT_CELLS + "\n");
+										+ Game.INIT_CELLS + "\n");
 
 						} else { pInitCells = Integer.parseInt(initS); }
 
@@ -118,7 +118,7 @@ public class PlayCommand extends Command {
 					try {
 						
 						System.out.print("\nPlease enter the seed for the "
-										+ "pseudo-random number generator:");
+								+ "pseudo-random number generator:");
 						String randomS = in.nextLine().trim();
 
 						if (randomS.isEmpty()) {
@@ -130,7 +130,7 @@ public class PlayCommand extends Command {
 
 					} catch (NumberFormatException nfe) {
 						System.out.println("The seed for the pseudo-random number "
-										 + "generator must be a number !!");
+								   + "generator must be a number !!");
 						
 						correctEntry = false;
 					}
