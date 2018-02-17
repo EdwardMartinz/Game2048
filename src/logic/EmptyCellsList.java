@@ -5,9 +5,10 @@ import java.util.Random;
 // List of empty positions on the board
 public class EmptyCellsList {
 
+	// Attributes
 	private final static int CAPACIDAD = 400; 
 	private Position[] arrayAsList;
-	int cont;
+	private int cont;
 
 	// Constructor
 	public EmptyCellsList() {
