@@ -3,7 +3,8 @@ package logic;
 import java.util.EmptyStackException;
 
 public class GameStatesStack {
-
+	
+	// Attributes
 	private static final int CAPACITY = 20;
 	private GameState[] stack;
 	private int stackPointer;
