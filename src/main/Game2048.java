@@ -16,7 +16,7 @@ public class Game2048 {
 			long seed = new Random().nextInt(1000);
 			
 			// Creates game
-			Game game = new Game(GameType.ORIG, 4, 2, seed);
+			Game game = new Game(GameType.ORIG, Game.SIZE, Game.INIT_CELLS, seed);
 			
 			// Creates a Controller
 			Scanner in = new Scanner(System.in);

@@ -6,7 +6,6 @@ import logic.Game;
 
 public class ResetCommand extends NoParamsCommand {
 
-	// Attributes
 	private final static String COMMAND_INFO = "reset";
 	private final static String HELP_INFO = "start a new game\n";
 

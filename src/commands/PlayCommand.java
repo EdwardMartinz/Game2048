@@ -70,9 +70,9 @@ public class PlayCommand extends Command {
 						String sizeS = in.nextLine().trim();
 
 						if (sizeS.isEmpty()) {
-							pSize = Game.DEFAULT_SIZE;
+							pSize = Game.SIZE;
 							System.out.println("--> Using the default size of the board: " 
-													+ Game.DEFAULT_SIZE + "\n");
+													+ Game.SIZE + "\n");
 
 						} else {
 							pSize = Integer.parseInt(sizeS);
@@ -97,9 +97,9 @@ public class PlayCommand extends Command {
 						String initS = in.nextLine().trim();
 
 						if (initS.isEmpty()) {
-							pInitCells = Game.DEFAULTT_INIT_CELLS;
+							pInitCells = Game.INIT_CELLS;
 							System.out.println("--> Using the default number of initial cells: "
-													+ Game.DEFAULTT_INIT_CELLS + "\n");
+													+ Game.INIT_CELLS + "\n");
 
 						} else { pInitCells = Integer.parseInt(initS); }
 

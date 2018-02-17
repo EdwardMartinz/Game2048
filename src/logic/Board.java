@@ -4,8 +4,7 @@ package logic;
 import utils.MyStringUtils;
 
 public class Board {
-	
-	// Attributes
+
 	private Cell[][] board;
 	private int boardSize;
 

@@ -8,8 +8,8 @@ import utils.MyStringUtils;
 public class Game {
 
 	// Constants
-	public static final int DEFAULT_SIZE = 4;
-	public static final int DEFAULTT_INIT_CELLS = 2;
+	public static final int SIZE = 4;
+	public static final int INIT_CELLS = 2;
 	// Atributes
 	private GameType gameType;
 	private GameRules currentRules;
