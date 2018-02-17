@@ -1,8 +1,8 @@
 package logic;
 
-//Class for encapsulate data
 public class GameState {
 
+	// Attributes
 	private int score;
 	private int[][] boardState;
 
