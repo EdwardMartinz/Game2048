@@ -2,6 +2,7 @@ package logic;
 
 public class Position {
 
+	// Attributes
 	private int row;
 	private int column;
 
