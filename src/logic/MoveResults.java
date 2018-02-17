@@ -1,8 +1,8 @@
 package logic;
 
-// Class for encapsulate data
 public class MoveResults {
 
+	// Attributes
 	private boolean moved;
 	private int points;
 
