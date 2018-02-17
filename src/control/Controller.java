@@ -10,7 +10,8 @@ import logic.Game;
 import utils.CommandParser;
 
 public class Controller {
-
+	
+	// Attributes
 	private Game game;
 	private Scanner in;
 
