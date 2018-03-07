@@ -4,12 +4,11 @@ import java.util.EmptyStackException;
 
 public class GameStatesStack {
 	
-	// Attributes
 	private static final int CAPACITY = 20;
 	private GameState[] stack;
 	private int stackPointer;
 
-	// Constructor
+	
 	public GameStatesStack() {
 		stack = new GameState[CAPACITY];
 		stackPointer = 0; // first position free in the stack
