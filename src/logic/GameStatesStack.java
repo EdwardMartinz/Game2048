@@ -48,7 +48,7 @@ public class GameStatesStack {
 		return (stackPointer == 0);
 	}
 
-	// Ches if the stack is full
+	// Checks if the stack is full
 	private boolean isFull() {
 		return (stackPointer == CAPACITY);
 	}
