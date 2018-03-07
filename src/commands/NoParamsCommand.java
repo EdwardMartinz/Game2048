@@ -7,7 +7,6 @@ import logic.Game;
 
 public abstract class NoParamsCommand extends Command {
 
-	// Constructor
 	public NoParamsCommand(String commandInfo, String helpInfo) {
 		super(commandInfo, helpInfo);
 
@@ -16,7 +15,6 @@ public abstract class NoParamsCommand extends Command {
 	// Execute of one parameter commands is in the subclass
 	public abstract boolean execute(Game game) throws ExecuteException;
 
-	// Parse for one parameter commands
 	@Override
 	public Command parse(String[] commandWords, Scanner in) {
 		if (commandWords.length == 1 && commandWords[0].equals(commandName))
