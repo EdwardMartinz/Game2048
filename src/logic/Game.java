@@ -23,7 +23,7 @@ public class Game {
 	private GameStatesStack undoStack;
 	private GameStatesStack redoStack;
 
-	// Constructor 
+
 	public Game(GameType gType, int dim, int numCells, long seed) {
 		gameType = gType;
 		currentRules = gType.getRules();
