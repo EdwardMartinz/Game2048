@@ -14,12 +14,10 @@ public class RedoCommand extends NoParamsCommand {
 	private final static String COMMAND_INFO = "redo";
 	private final static String HELP_INFO = "redo the last undone command\n";
 
-	// Constructor
 	public RedoCommand() {
 		super(COMMAND_INFO, HELP_INFO);
 	}
 
-	// Execute
 	@Override
 	public boolean execute(Game game) throws ExecuteException {
 		try {
