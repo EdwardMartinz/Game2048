@@ -20,7 +20,6 @@ public class MoveCommand extends Command{
 			+ " in one of the directions:"
 			+ " up, down, left, right\n";
 	
-	// Constructors
 	public MoveCommand() {
 		super(COMMAND_INFO,HELP_INFO);
 	}
@@ -30,14 +29,12 @@ public class MoveCommand extends Command{
 		this.dir = dir;
 	}
 
-	// Execute
 	@Override
 	public boolean execute(Game game) throws GameOverException {
 		game.move(dir);
 		return true; 
 	}
 	
-	// Parse
 	@Override
 	public Command parse(String[] commandWords, Scanner in) throws CommandParseException {
 		if(commandWords.length == 2 && commandWords[0].equals(commandName)) {
