@@ -11,11 +11,9 @@ import utils.CommandParser;
 
 public class Controller {
 	
-	// Attributes
 	private Game game;
 	private Scanner in;
 
-	// Constructor
 	public Controller(Game game, Scanner in) {
 		this.game = game;
 		this.in = in;
