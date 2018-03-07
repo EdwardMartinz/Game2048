@@ -38,13 +38,11 @@ public class PlayCommand extends Command {
 	}
 
 	@Override
-	// Execute
 	public boolean execute(Game game) {
 		game.changeTheGame(gameType, pSize, pInitCells, pSeed);
 		return true;
 	}
 
-	// Parse
 	@Override
 	public Command parse(String[] commandWords, Scanner in) throws CommandParseException {
 		boolean correctEntry;
