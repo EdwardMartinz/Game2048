@@ -2,15 +2,12 @@ package logic;
 
 public class Cell {
 
-	// Attributes
 	private int valor;
 
-	// Constructor
 	public Cell(int value) {
 		valor = value;
 	}
 
-	// Getters and Setters
 	public int getValor() {
 		return valor;
 	}
@@ -29,7 +26,6 @@ public class Cell {
 		return rules.merge(this, neighbour);
 	}
 	
-	// toString
 	public String toString() {
 		if (valor == 0)
 			return " ";
