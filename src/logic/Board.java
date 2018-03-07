@@ -11,7 +11,6 @@ public class Board {
 	public Board(int Bsize) {
 		boardSize = Bsize;
 		board = new Cell[Bsize][Bsize];
-		
 	}
 	
 	// Size
