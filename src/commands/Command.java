@@ -9,12 +9,10 @@ import logic.Game;
 
 public abstract class Command {
 
-	// Attributes
 	private String helpText;
 	private String commandText;
 	protected final String commandName;
 
-	// Constructor
 	public Command(String commandInfo, String helpInfo) {
 		commandText = commandInfo;
 		helpText = helpInfo;
