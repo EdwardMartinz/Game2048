@@ -15,12 +15,10 @@ public class UndoCommand extends NoParamsCommand {
 	private final static String HELP_INFO = "undo the last command\n";
 
 
-	// Constructor
 	public UndoCommand() {
 		super(COMMAND_INFO, HELP_INFO);
 	}
 
-	// Execute
 	@Override
 	public boolean execute(Game game) throws ExecuteException {
 		try {
