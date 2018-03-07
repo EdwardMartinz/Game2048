@@ -36,7 +36,6 @@ public enum GameType {
 		return s.substring(1,s.length() - 1);
 	}
 
-	// Getters
 	public String externalise() {
 		return gameParameter;
 	}
