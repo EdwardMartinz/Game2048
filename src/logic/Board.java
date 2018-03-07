@@ -5,11 +5,9 @@ import utils.MyStringUtils;
 
 public class Board {
 
-	// Attributes
 	private Cell[][] board;
 	private int boardSize;
 
-	// Constructor
 	public Board(int Bsize) {
 		boardSize = Bsize;
 		board = new Cell[Bsize][Bsize];
@@ -251,8 +249,6 @@ public class Board {
 		}
 	}
 	
-	
-	// toString
 	public String toString() {
 		// Symbols
 		int cellSize = 7;
