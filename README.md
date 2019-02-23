@@ -8,7 +8,7 @@
 ![fibonacci](https://user-images.githubusercontent.com/36489953/36233119-c1317b2a-11e4-11e8-817c-9c08d8b5ba97.PNG)
 
 ## How to install
-This project was developed in Eclipse, import the SRC in your Eclipse Project
+This project was developed in Eclipse, import the SRC folder in your Eclipse Project
 
 ## How to play
 ### Commands
